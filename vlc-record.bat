@@ -1,3 +1,6 @@
+@rem VLC commandline recorder by ChieftainY2k
+@rem to list devices use "ffmpeg -list_devices true -f dshow -i dummy"
+
 @set SAVESTAMP=%DATE:/=-%@%TIME::=-%
 @set FPS=20
 @set WIDTH=1920
